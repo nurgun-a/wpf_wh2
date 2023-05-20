@@ -1,0 +1,59 @@
+﻿<Window x:Class="form2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:form2"
+        mc:Ignorable="d"
+        Title="Dockpanel" Height="450" Width="435">
+    <Viewbox>
+        <DockPanel>
+            <Button Click="LeftClick" DockPanel.Dock="Left" Width="150">
+                Left
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                        <GradientStop Color="LightGray" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="TopClick" DockPanel.Dock="Top" Height="150">
+                Top
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                        <GradientStop Color="LightGray" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="BottomClick" DockPanel.Dock="Bottom" Height="150">
+                Bottom
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                        <GradientStop Color="LightGray" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="RighClick" DockPanel.Dock="Right" Width="150">
+                Right
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                        <GradientStop Color="LightGray" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+            <Button Click="CenterClick" Height="150" Width="150" DockPanel.Dock="Left">
+                Center
+                <Button.Background>
+                    <LinearGradientBrush StartPoint="0.5,1" EndPoint="0.5,0">
+                        <GradientStop Color="LightGray" Offset="0" />
+                        <GradientStop Color="White" Offset="1" />
+                    </LinearGradientBrush>
+                </Button.Background>
+            </Button>
+        </DockPanel>
+    </Viewbox>
+   
+</Window>
